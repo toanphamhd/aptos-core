@@ -96,6 +96,9 @@ compiled_package_info:
       name: Signer
     : Std
     ? address: "00000000000000000000000000000001"
+      name: SimpleToken
+    : AptosFramework
+    ? address: "00000000000000000000000000000001"
       name: SystemAddresses
     : CoreFramework
     ? address: "00000000000000000000000000000001"
@@ -137,7 +140,7 @@ compiled_package_info:
     ? address: "00000000000000000000000000000001"
       name: Version
     : CoreFramework
-  source_digest: 37387FB357745CFBBDD28215870C1DF1DE8745B29DCCDC6BB79D74AF1DECB584
+  source_digest: 6435238B0E2FED48C570FE19C3C6197468787F51F86758A0BDB38F6850FC6D30
   build_flags:
     dev_mode: false
     test_mode: false
